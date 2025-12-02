@@ -1,7 +1,7 @@
 {
-  "name": "jsonviewer",
-  "private": true,
-  "version": "0.0.0",
+  "name": "jsonorbit",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
