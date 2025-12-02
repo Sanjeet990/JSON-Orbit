@@ -1,8 +1,16 @@
 {
   "name": "jsonorbit",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "jsonorbit": "./bin/cli.js"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
